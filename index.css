@@ -1,0 +1,63 @@
+h1.outline{
+  position: relative;
+  word-wrap: break-word;
+
+  font-size: 2.25em;
+  font-style: italic;
+  font-weight: bolder;
+  -webkit-text-stroke: 0.7px #000000;
+
+  -webkit-box-shadow: 0px 0px 4px 0px #ffffff; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0px 0px 4px 0px #ffffff; /* FF3.5 - 3.6 */
+  box-shadow: 0px 0px 4px 0px #ffffff; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+
+  background-color: rgba(75, 86, 160, 0.7);/*#444444;*/
+
+}
+
+p.outline{
+  position: relative;
+
+  font-weight: bolder;
+  color: white;
+  font-size: 1.40em;
+  -webkit-text-stroke: 0.95px #000000;
+  /*border-radius: 50%;*/
+  /*border-radius: 25px;*/
+  text-rendering: optimizeLegibility;
+  /*background-color: #304DAF;*/
+  /*background-color: #607D8B;*/
+  -webkit-box-shadow: 0px 0px 4px 0px #ffffff; /* Saf3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0px 0px 4px 0px #ffffff; /* FF3.5 - 3.6 */
+  box-shadow: 0px 0px 4px 0px #ffffff; /* Opera 10.5, IE9, FF4+, Chrome 6+, iOS 5 */
+
+  background-color: rgba(75, 75, 75, 0.7);/*#444444;*/
+
+
+  /*background-image: -webkit-gradient(linear, left top, left bottom, from(#444444), to(#999999)); /* Saf4+, Chrome */
+  /*background-image: -webkit-linear-gradient(top, #444444, #999999); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  /*background-image:    -moz-linear-gradient(top, #444444, #999999); /* FF3.6 */
+  /*background-image:     -ms-linear-gradient(top, #444444, #999999); /* IE10 */
+  /*background-image:      -o-linear-gradient(top, #444444, #999999); /* Opera 11.10+ */
+  /*background-image:         linear-gradient(to bottom, #444444, #999999);*/
+
+}
+
+
+@media screen and (max-width: 600px) {
+  h1.outline{
+     font-size: 1.60em;
+  }
+  p.outline{
+    font-size: 1.15;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1.outline{
+     font-size: 3em;
+  }
+  p.outline{
+    font-size: 1.75em;
+  }
+
+}

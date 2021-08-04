@@ -1,0 +1,40 @@
+#canvas{
+  position: absolute;
+  border: solid 1.5px blue;
+  /*margin-left: 5%;*/
+  left: 5%;
+  top: 85px;
+  /*
+  width: 45%;
+  height: 88%;
+  */
+
+  width: 42.5vw;
+  height: 42.5vw;
+
+
+  /*width: 45%;**/
+  /*height: 88%;*/
+  /*height: 42.5vw;**/
+}
+
+@media screen and (max-width: 991px) {
+  #canvas{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 85vw;
+    height: 85vw;
+  }
+}
+
+.offset{
+  top: 85px;
+}
+
+/*
+#canvas:after{
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+  padding-left: 100%;
+}*/

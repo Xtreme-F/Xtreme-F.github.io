@@ -1,0 +1,41 @@
+:root{
+  --title:red;
+  --mainText:black;
+}
+
+/*section{
+  float: left;
+}*/
+
+aside{
+  float: right;
+}
+
+head{
+  color: red;
+  font-size: 4em;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+h1{
+  color: var(--title);
+  font-size: 2.4em;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  color: var(--mainText);
+  font-size: 1.3em;
+  /*text-decoration: underline;*/
+  text-decoration-style: wavy;
+}
+
+canvas{
+  position: fixed;
+  left: 0;
+  top: 0;
+}

@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Fernando Venegas' Portfolio Website</title>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Software Developer's portfolio website with project descriptions and some demos.">
+    <meta name="author" content="">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="./src/view/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="./src/view/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./src/view/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    [endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="./src/view/carousel.css" rel="stylesheet">
+    <link href="./index.css"  rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Portfolio</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="./src/view/about.html">About</a></li>
+                <li><a href="./src/view/contact.html">Contact</a></li>
+
+                <!--
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+
+                -->
+
+                <!--<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
+                <!--
+                <li><a style="color: #dd4b39;" href="https://github.com/Xtreme-F/" role="button">
+                  <i class="fab fa-github fa-lg"></i>
+                </a>
+                </li>
+                -->
+                <li class="invisible" style="text-color: #0000;" width="140">.............................................................................</li>
+                <li style="right: 0;">
+                  <a href="https://www.linkedin.com/in/fernando-venegas-22a408188" class="btn btn-social-icon btn-linkedin" title="Connect with me!">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+
+                <li style="right: 0;">
+                  <a href="https://github.com/Xtreme-F/" class="btn btn-social-icon btn-github" title="Check out my Github!">
+                    <i class="fa fa-github"></i>
+                  </a>
+                </li>
+
+                <li style="right: 0;">
+                  <a href="mailto:fer80001@hotmail.com" class="btn btn-social-icon btn-envelope" title="Send an email!">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+
+              </ul>
+
+
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="./res/image2.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="outline">Welcome to my Portfolio Website!</h1>
+              <p class="outline">My name is Fernando Venegas. I'm a recent Computer Science graduate enthusiastic to learn new technologies and concepts everyday!</p>
+              <p class="outline">Please, relax and stay comfy.</p>
+              <p>Page is still under construction</p>
+              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Button</a></p>-->
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="./res/image3.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="outline">Prospective.</h1>
+              <p class="outline">I'm looking forward to work in software engineering positions. Full stack development. Prog. Langauges Known: Java, C, Python, HTML, CSS, JavaScript, C++, mySQL</p>
+              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="./res/image4.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="outline">One more for good measure.</h1>
+              <p class="outline">I have relevant projects and coursework for different areas of software development such as Artificial Intelligence, GUI Applications, Database transactions apps, Systems/Operating Systems, and more! </p>
+              <p><a class="btn btn-lg btn-primary" href="#projects" role="button">Browse Projects</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <h1 class="concentrations-heading">Concentrations</h1>
+      <br>
+      <!-- Three columns of text below the carousel -->
+      <!-- Buttons are Commented For now.-->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="./res/Focus_AI.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Artificial Intelligence</h2>
+          <p>Enthusiast about AI concepts and algorithms. Relevant coursework taken covering uninformed/informed and global/local search, Knowledge Base, Better Decision making based on probability theory and predictive models with machine learning in pure AI course as well as in Data Science course.</p>
+          <p>Languages/Technologies: Python, LaTeX</p>
+          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="./res/Focus_Sys.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Systems Analysis, Design and Programming</h2>
+          <p>Long practice and strong understanding on the concepts of systems programming as well as Operating Systems Design. Relevant coursework taken on low level programming that implemented multithreading programs, socket programming and OS user-level libraries.</p>
+          <p>Languages/Environments/Tech: C language, Linux, Pthreads, FUSE File System Library</p>
+          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="./res/Focus_Soft.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Software Methodology / Databases</h2>
+          <p>Strong understanding on high-level programming concepts, software design patterns, database systems and group projects collaboration. Relevant coursework on abstractions, resource management, GUI, Android Programming, Database design, web programming and transactions.</p>
+          <p>Langauges/Tech: Java, FXML, Android Studio, JSP, mySQL, HTML, AWS EC2</p>
+          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <br><br>
+      <h1 id="projects" class="projects-heading">Projects!</h1>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Exam Practice App <span class="text-muted">(Personal Proj. / Java)</span></h2>
+          <p class="lead">GUI Application that lets the user create personal exams and practice them (persistence allows to store exams in computer for future use). Measures time and score, and lets user choose how many questions to take, to shuffle, to autograde or selfgrade, and text-to-speech questions and correct answers.</p>
+          <p class="lead">Techonologies used: JavaFX for GUI, FXML for graphics interface design and organization, Java Process, Threads and Windows PowerShell for text-to-speech.</p>
+          <p>Note: This project uses the JavaFX library and my own PowerShellInteractor Library (which is the project right below).</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="./res/proj_practiceexam/demoimage.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-6 col-md-push-2">
+        <p><a class="btn btn-lg btn-primary" href="https://github.com/Xtreme-F/Exam-Practice-App" role="button">See in GitHub!</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">PowerShellInteractor Library<span class="text-muted">(Personal Project / Java)</span></h2>
+          <p class="lead">Allows applications to create PowerShellProcess Objects that opens Windows PowerShell in the background and writes commands to it when requested. The library is a .JAR file.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="./res/proj_powershell/demoimage.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-6 col-md-push-8">
+        <p><a class="btn btn-lg btn-primary" href="https://github.com/Xtreme-F/PowerShellInteractor" role="button">See in GitHub!</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Flaming Labyrinth <span class="text-muted">(Artificial Intelligence)</span></h2>
+          <p class="lead">Applied global search algorithms to find paths in a randomly generated maze with fire that expands over time. Used DFS, BFS, A* as basic strategies to beat the labyrinth and came up with an even better strategy to increase success rate by taking into consideration the expanding fire and flamability rate.</p>
+          <p>Note: Initial position of the agent (AI player) is top left corner, goal is always bottom right corner</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="./res/proj_mazefire/demoimage.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-6 col-md-push-2">
+        <p><a class="btn btn-lg btn-primary" href="./src/view/FlamingLabyrinth.html" role="button">Brief Demo</a>   <a class="btn btn-lg btn-primary" href="https://github.com/Xtreme-F/Xtreme-F.github.io/tree/main/src/projects/FlamingLabyrinth" role="button">See in GitHub!</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Minesweeper Solver<span class="text-muted">(Artificial Intelligence)</span></h2>
+          <p class="lead">Applied knowledge base concepts, logical inferences concepts, and local search (beam search) to create an AI that solves the minesweeper game. Strategies with global information given were tested as well as better decisions using probabilistic methods. Note that the game is a Minesweeper simulation and the Agent does not immediately lose after stepping on a mine.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="./res/proj_minesweeper/demoimage.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-6 col-md-push-8">
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">No Demo Available at the Moment</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Find and Eliminate <span class="text-muted">(Artificial Intelligence)</span></h2>
+          <p class="lead">The experiment randomly creates a map with different types of terrain (each terrain has its false negative probability when searched on), put the target and the AI agent. Used Bayesian Networks to determine which coordinate in the map was the decision to search on, based on logical statements from conditional probability.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="./res/proj_searchndestroy/demoimage.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-6 col-md-push-2">
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">No Demo Available at the Moment</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Color <span class="text-muted">(Artificial Intelligence)</span></h2>
+          <p class="lead">Used machine learning techniques to recolor complete images according to the data of one half (side) of the image. Techniques used: K-means clustering for a basic training and result (model), logistic regression with gradient descent and sigmoid function for a more complex model.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" data-src="holder.min.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-6 col-md-push-8">
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">No Demo Available at the Moment</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <!-- <div class="col-md-7"> -->
+          <h2 class="featurette-heading">RailWay Booking System <span class="text-muted">(Databases)</span></h2>
+          <br><br>
+          <p class="lead">Worked in a team of 5 members for this project that consisted on designing a  database, coding the front-end and back-end, and coding the SQL transactions for a railway booking system.</p>
+          <li class="lead">Designed and revised the final design of the system.</li>
+          <li class="lead">Coded simple user-interface for the customer reservations aspect of the project (new reservations, look up current and past reservations, cancel reservations).</li>
+          <li class="lead">Coded the database transactions for the customer reservations aspect of the project (SQL for the mentioned functionalities).</li>
+        <!-- </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="holder.min.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        -->
+        <div class="col-md-6 col-md-push-2">
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">No Demo Available</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <h2 class="featurette-heading">Plagiarism Detector <span class="text-muted">(Systems Programming, C Language)</span></h2>
+        <br>
+        <p class="lead">Worked with a partner to program a multi-threaded system that examined all sub-directories and files from a target directory, looking for the similarity of all the found files. Implemented: pthreads, linked lists.</p>
+        <!--
+        <div class="col-md-7 col-md-push-5">
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" data-src="holder.min.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        -->
+        <div class="col-md-6 col-md-push-8">
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">No Demo Available</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <!-- <div class="col-md-7"> -->
+          <h2 class="featurette-heading">Tiny File System <span class="text-muted">(Operating Systems Design, C Language)</span></h2>
+          <br><br>
+          <p class="lead">Worked with a partner to build a thread-safe, user-level file system (multi-level indexed) using the FUSE library to be able to do maintain a diskfile and handle a file system from certain chosen directory, showing the understanding on persistence in OS and the common issues that are faced. Used bitmaps to minimize metadata space and optimize operations.</p>
+        <!-- </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="holder.min.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        -->
+        <div class="col-md-6 col-md-push-2">
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">No Demo Available</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <h2 class="featurette-heading">Virtual Memory <span class="text-muted">(Operating Systems Design, C Language)</span></h2>
+        <br><br>
+        <p class="lead">Worked with a partner to build a user-level virtual memory to show understanding of what virtual memory is and how it works as part of the OS. Implemented multi-level page table and programmed TLB cache. Used bitmaps to minimize metadata space and optimize operations.</p>
+        <!-- <div class="col-md-7 col-md-push-5">
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" data-src="holder.min.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        -->
+        <div class="col-md-6 col-md-push-8">
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">No Demo Available</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <!-- <div class="col-md-7"> -->
+          <h2 class="featurette-heading">Thread Library and Scheduler <span class="text-muted">(Operating Systems Design, C Language)</span></h2>
+          <br><br>
+          <p class="lead">Worked with a partner to build a threads user-level library like pthreads to be able to do job scheduling like an OS does and enables concurrent programming.</p>
+        <!-- </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="holder.min.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        -->
+        <div class="col-md-6 col-md-push-2">
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">No Demo Available</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <h2 class="featurette-heading">C Sockets, Who's There? <span class="text-muted">(Systems Programming, C Language)</span></h2>
+        <br><br>
+        <p class="lead">Worked with a partner to build a threads user-level library like pthreads to be able to do job scheduling like an OS does and enables concurrent programming.</p>
+        <!-- <div class="col-md-7 col-md-push-5">
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" data-src="holder.min.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        -->
+        <div class="col-md-6 col-md-push-8">
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">No Demo Available</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <!-- <div class="col-md-7"> -->
+          <h2 class="featurette-heading">Photo Library <span class="text-muted">(Software Methodology, Java, FXML)</span></h2>
+          <br><br>
+          <p class="lead">Worked with a partner to implement Graphical User Interface and build a photo library that retrieves songs from a serialized photos file, and is able to handle users login, add,edit or delete albums and photos, as well as searching for photos with certain tags from the library and from the stored photos file. Practiced more teamwork, design patterns and program persistence.</p>
+        <!-- </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="holder.min.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        -->
+        <div class="col-md-6 col-md-push-2">
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">No Demo Available</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <h2 class="featurette-heading">Android Photo Library <span class="text-muted">(Software Methodology, Android Studio)</span></h2>
+        <br><br>
+        <p class="lead">Worked with a partner to implement the photos app as an android project. Practiced reading Android documentation, android GUI, android storage/persistence, android GUI and android development in a very fast-paced manner.</p>
+        <!-- <div class="col-md-7 col-md-push-5">
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" data-src="holder.min.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        -->
+        <div class="col-md-6 col-md-push-8">
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">No Demo Available</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <!-- <div class="col-md-7"> -->
+          <h2 class="featurette-heading">ASCII Chess <span class="text-muted">(Software Methodology, Java)</span></h2>
+          <br><br>
+          <p class="lead">Worked with a partner to build a Chess game made of ascii characters. The goal of this project is to practice inheritance and basic design patterns as well as to work with a partner to finish the project in a short amount of time.</p>
+        <!-- </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="holder.min.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        -->
+        <div class="col-md-6 col-md-push-2">
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">No Demo Available</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <h2 class="featurette-heading">MyMalloc <span class="text-muted">(Systems Programming, C Language)</span></h2>
+        <br><br>
+        <p class="lead">Worked with a partner to implement a custom version of the malloc function in C. Allocates and Manages data as malloc, uses minimal metadata (bitwise operations) to maximize available space and handles edge cases where malloc would segmentation fault.</p>
+        <!-- <div class="col-md-7 col-md-push-5">
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" data-src="holder.min.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        -->
+        <div class="col-md-6 col-md-push-8">
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">No Demo Available</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <!-- <div class="col-md-7"> -->
+          <h2 class="featurette-heading">Song Library <span class="text-muted">(Software Methodology, Java, FXML)</span></h2>
+          <br><br>
+          <p class="lead">Worked with a partner to implement Graphical User Interface and build a song library that retrieves songs from a stored songs file, and is able to add,edit or delete songs from the library and from the stored songs file.</p>
+        <!-- </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="holder.min.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        -->
+        <div class="col-md-6 col-md-push-2">
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">No Demo Available</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <h2 class="featurette-heading">Graph of Friends <span class="text-muted">(Data Structures, Java)</span></h2>
+        <br><br>
+        <p class="lead">Worked alone to implement graphs and graphs algorithms that takes a text file as input to build the graph. Graphs algorithms implemented are Depth First Search and Breath First Search (BFS).</p>
+        <!-- <div class="col-md-7 col-md-push-5">
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" data-src="holder.min.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        -->
+        <div class="col-md-6 col-md-push-8">
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">No Demo Available</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <!-- <div class="col-md-7"> -->
+          <h2 class="featurette-heading">Little Search Engine <span class="text-muted">(Data Structures, Java)</span></h2>
+          <br><br>
+          <p class="lead">Worked alone to implement hashtables and build a "little" search engine that gather and indexes keywords that appear in a set of plain-text documents, and searches for user-input keywords against the index and returns a list of matching documents in which these keywords occur.</p>
+        <!-- </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="holder.min.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        -->
+        <div class="col-md-6 col-md-push-2">
+        <p><a class="btn btn-lg btn-primary" href="#" role="button">No Demo Available</a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>Made on 2021</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./src/view/JQuery.js"></script>
+    <script src="./src/view/bootstrap/js/bootstrap.js"></script>
+    <script src="./src/view/holder.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./src/view/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
